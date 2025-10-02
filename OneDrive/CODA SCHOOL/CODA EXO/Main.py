@@ -31,6 +31,13 @@ def exercice6():
     resultat = nombre1 - nombre2
     print("La différence est :", resultat)
 
+def exercice7():
+    nombre1 = int(input("Entrez le premier nombre : "))
+    nombre2 = int(input("Entrez le deuxième nombre : "))
+    resultat = nombre1 * nombre2
+    print("Le produit est :", resultat)
+
+
 
 
 
@@ -52,6 +59,8 @@ def main():
         exercice5()
     elif choix == "6":
         exercice6()
+    elif choix == "7":
+        exercice7()
     else:
         print("Exercice non reconnu.")
 
