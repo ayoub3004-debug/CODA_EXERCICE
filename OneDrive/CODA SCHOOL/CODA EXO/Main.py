@@ -19,6 +19,16 @@ def exercice4():
     age = annee_actuelle - annee
     print("Vous avez environ", age, "ans.")
 
+def exercice5():
+    nombre1 = int(input("Entrez le premier nombre : "))
+    nombre2 = int(input("Entrez le deuxième nombre : "))
+    resultat = nombre1 + nombre2
+    print("La somme est :", resultat)
+
+
+
+
+
    
 def main():
     # Demande à l'utilisateur quel exercice exécuter
@@ -31,6 +41,8 @@ def main():
         exercice3()
     elif choix == "4":
         exercice4()
+    elif choix == "5":
+        exercice5()
     else:
         print("Exercice non reconnu.")
 
