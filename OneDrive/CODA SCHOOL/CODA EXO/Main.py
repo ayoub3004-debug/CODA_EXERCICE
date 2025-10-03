@@ -1,5 +1,6 @@
 from ast import main
 from datetime import date
+from email import message
 
 
 def exercice1():
@@ -58,6 +59,11 @@ def exercice11():
     moitie = nombre / 2
     print("La moitié est :", moitie)
 
+def exercice12():
+    message = input("Entrez un message : ")
+    for i in range(5):
+     print(message)
+
 
 
 
@@ -92,6 +98,8 @@ def main():
         exercice10()
     elif choix == "11":
         exercice11()
+    elif choix == "12":
+        exercice12()
 
     else:
         print("Exercice non reconnu.")
