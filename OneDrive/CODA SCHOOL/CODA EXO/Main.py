@@ -77,6 +77,13 @@ def exercice15():
     perimetre = 4 * cote
     print("Le périmètre du carré est :", perimetre)
 
+def exercice16():
+    cote = float(input("Entrez la longueur du côté du carré : "))
+    aire = cote * cote
+    print("L'aire du carré est :", aire)
+
+
+
 
 
 
@@ -120,6 +127,8 @@ def main():
         exercice14()  
     elif choix == "15":
         exercice15()  
+    elif choix == "16":
+        exercice16() 
 
 
 
