@@ -73,6 +73,10 @@ def exercice14():
      print(f"2 x {i} = {2 * i}")
 
 def exercice15():
+    cote = float(input("Entrez la longueur du côté du carré : "))
+    perimetre = 4 * cote
+    print("Le périmètre du carré est :", perimetre)
+
 
 
 
