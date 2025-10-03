@@ -92,7 +92,10 @@ def exercice18():
     secondes = minutes * 60
     print("Le nombre de secondes est :", secondes)
 
-
+def exercice19():
+    prix_ht = float(input("Entrez le prix HT : "))
+    prix_ttc = prix_ht * 1.2
+    print("Le prix TTC est :", prix_ttc)
 
 
 
@@ -146,6 +149,8 @@ def main():
         exercice17()
     elif choix == "18":
         exercice18()
+    elif choix == "19":
+        exercice19()
 
 
 
