@@ -68,6 +68,10 @@ def exercice13():
     for i in range(1, 6):
      print(i)
 
+def exercice14():
+    for i in range(1, 6):   # de 1 à 5
+     print(f"2 x {i} = {2 * i}")
+
 
 
 
@@ -107,6 +111,9 @@ def main():
         exercice12()
     elif choix == "13":
         exercice13()
+    elif choix == "14":
+        exercice14()  
+
 
 
     else:
