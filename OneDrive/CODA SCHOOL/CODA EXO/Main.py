@@ -37,6 +37,17 @@ def exercice7():
     resultat = nombre1 * nombre2
     print("Le produit est :", resultat)
 
+def exercice8():
+    nombre1 = int(input("Entrez le premier nombre : "))
+    nombre2 = int(input("Entrez le deuxième nombre : "))
+    resultat = nombre1 / nombre2
+    print("Le quotient est :", resultat)
+
+def exercice9():
+    nombre = int(input("Entrez un nombre : "))
+    carre = nombre ** 2
+    print("Le carré est :", carre)
+
 
 
 
@@ -61,6 +72,11 @@ def main():
         exercice6()
     elif choix == "7":
         exercice7()
+    elif choix == "8":
+        exercice8()
+    elif choix == "9":
+        exercice9()
+
     else:
         print("Exercice non reconnu.")
 
