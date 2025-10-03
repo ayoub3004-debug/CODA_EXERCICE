@@ -64,6 +64,11 @@ def exercice12():
     for i in range(5):
      print(message)
 
+def exercice13():
+    for i in range(1, 6):
+     print(i)
+
+
 
 
 
@@ -100,6 +105,9 @@ def main():
         exercice11()
     elif choix == "12":
         exercice12()
+    elif choix == "13":
+        exercice13()
+
 
     else:
         print("Exercice non reconnu.")
