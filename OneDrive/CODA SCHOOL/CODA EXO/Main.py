@@ -53,6 +53,12 @@ def exercice10():
     double = nombre * 2
     print("Le double est :", double)
 
+def exercice11():
+    nombre = float(input("Entrez un nombre : "))
+    moitie = nombre / 2
+    print("La moitié est :", moitie)
+
+
 
 
 
@@ -84,6 +90,8 @@ def main():
         exercice9()
     elif choix == "10":
         exercice10()
+    elif choix == "11":
+        exercice11()
 
     else:
         print("Exercice non reconnu.")
