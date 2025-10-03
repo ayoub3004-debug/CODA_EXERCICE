@@ -87,6 +87,13 @@ def exercice17():
     dollars = euros * 1.1
     print("Le montant en dollars est :", dollars)
 
+def exercice18():
+    minutes = float(input("Entrez le nombre de minutes : "))
+    secondes = minutes * 60
+    print("Le nombre de secondes est :", secondes)
+
+
+
 
 
 
@@ -137,6 +144,8 @@ def main():
         exercice16() 
     elif choix == "17":
         exercice17()
+    elif choix == "18":
+        exercice18()
 
 
 
