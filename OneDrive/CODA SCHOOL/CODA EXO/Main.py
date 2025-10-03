@@ -111,6 +111,43 @@ def exercice21():
     else:
      print("Le nombre est nul")
 
+def exercice22():    
+    age = int(input("Entrez votre âge : "))
+    if age >= 18:
+     print("Vous êtes majeur(e)")
+    else:
+     print("Vous êtes mineur(e)")
+
+def exercice23(): 
+    note = float(input("Entrez la note : "))
+    if note >= 10:
+     print("La note permet de valider")
+    else:
+     print("La note ne permet pas de valider")
+
+def exercice24(): 
+    nombre1 = float(input("Entrez le premier nombre : "))   
+    nombre2 = float(input("Entrez le deuxième nombre : "))
+    if nombre1 > nombre2:
+     print(f"{nombre1} est le plus grand")
+    elif nombre2 > nombre1:
+     print(f"{nombre2} est le plus grand")
+    else:
+     print("Les deux nombres sont égaux")
+
+def exercice25(): 
+    nombre1 = float(input("Entrez le premier nombre : "))
+    nombre2 = float(input("Entrez le deuxième nombre : "))
+    if nombre1 < nombre2:
+     print("Les nombres sont dans l'ordre croissant")
+    elif nombre1 > nombre2:
+     print("Les nombres ne sont pas dans l'ordre croissant")
+    else:
+     print("Les nombres sont égaux")
+
+
+
+
 
 
 
@@ -171,7 +208,13 @@ def main():
     elif choix == "21":
         exercice21()
     elif choix == "22":
-        exercice2()
+        exercice22()
+    elif choix == "23":
+        exercice23()
+    elif choix == "24":
+        exercice24()
+    elif choix == "25":
+        exercice25()
     else:
         print("Exercice non reconnu.")
 
