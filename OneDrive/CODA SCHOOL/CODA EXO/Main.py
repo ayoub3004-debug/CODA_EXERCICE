@@ -48,6 +48,12 @@ def exercice9():
     carre = nombre ** 2
     print("Le carré est :", carre)
 
+def exercice10():
+    nombre = int(input("Entrez un nombre : "))
+    double = nombre * 2
+    print("Le double est :", double)
+
+
 
 
 
@@ -76,6 +82,8 @@ def main():
         exercice8()
     elif choix == "9":
         exercice9()
+    elif choix == "10":
+        exercice10()
 
     else:
         print("Exercice non reconnu.")
