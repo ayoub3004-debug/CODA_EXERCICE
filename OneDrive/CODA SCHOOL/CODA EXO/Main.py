@@ -145,7 +145,50 @@ def exercice25():
     else:
      print("Les nombres sont égaux")
 
+def exercice26():
+    nombre = int(input("Entrez un nombre : "))
+    if nombre % 5 == 0:
+     print(f"{nombre} est divisible par 5")
+    else:
+     print(f"{nombre} n'est pas divisible par 5")
 
+def exercice27():
+    age = int(input("Entrez votre âge : "))
+    if age < 12:
+     print("Enfant")
+    elif 12 <= age <= 17:
+     print("Adolescent")
+    else:
+     print("Adulte")
+
+def exercice28():
+    temperature = float(input("Entrez la température de l'eau en °C : "))
+    if temperature < 0:
+     print("L'eau est solide (glace)")
+    elif 0 <= temperature <= 100:
+     print("L'eau est liquide")
+    else:
+     print("L'eau est gazeuse (vapeur)")
+
+def exercice29():
+    note = float(input("Entrez la note : "))
+    if note < 10:
+     mention = "Recalé"
+    elif 10 <= note < 12:
+     mention = "Passable"
+    elif 12 <= note < 14:
+     mention = "Assez bien"
+    elif 14 <= note < 16:
+     mention = "Bien"
+    elif 16 <= note < 18:
+     mention = "Très bien"
+    print(f"Note : {note} → Mention : {mention}")
+
+def exercice30():
+    N = int(input("Entrez un nombre N : "))
+    for i in range(1, N + 1):
+     print(i, end=" ")  # end=" " permet d'ecrire sur la même ligne
+     print()  # sautER la ligne à la fin
 
 
 
@@ -215,6 +258,18 @@ def main():
         exercice24()
     elif choix == "25":
         exercice25()
+    elif choix == "26":
+        exercice26()
+    elif choix == "27":
+        exercice27()
+    elif choix == "27":
+        exercice27()
+    elif choix == "28":
+        exercice28()
+    elif choix == "29":
+        exercice29()
+    elif choix == "30":
+        exercice30()
     else:
         print("Exercice non reconnu.")
 
