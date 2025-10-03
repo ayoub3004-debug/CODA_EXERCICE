@@ -82,6 +82,12 @@ def exercice16():
     aire = cote * cote
     print("L'aire du carré est :", aire)
 
+def exercice17():
+    euros = float(input("Entrez le montant en euros : "))
+    dollars = euros * 1.1
+    print("Le montant en dollars est :", dollars)
+
+
 
 
 
@@ -129,6 +135,8 @@ def main():
         exercice15()  
     elif choix == "16":
         exercice16() 
+    elif choix == "17":
+        exercice17()
 
 
 
