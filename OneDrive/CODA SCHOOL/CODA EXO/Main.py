@@ -97,6 +97,11 @@ def exercice19():
     prix_ttc = prix_ht * 1.2
     print("Le prix TTC est :", prix_ttc)
 
+def exercice20():
+    nom = input("Entrez votre nom : ")
+    age = input("Entrez votre âge : ")
+    print(nom, "a", age, "ans")
+
 
 
 
@@ -151,9 +156,8 @@ def main():
         exercice18()
     elif choix == "19":
         exercice19()
-
-
-
+    elif choix == "20":
+        exercice20()
     else:
         print("Exercice non reconnu.")
 
